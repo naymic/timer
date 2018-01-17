@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js">
+  </script>
+</head>
+
+<body>
+  <h1>Simple Timer!</h1>
+  <span id="timer"></span>
+</body>
+<script>
+
+  var test = new Timer(12, function() {console.log("Timeout!!") }, document.getElementById("timer"));
+  test.run();
+  
+</script>
+
+</html>
