@@ -13,8 +13,12 @@
 </body>
 <script>
 
-  var test = new Timer(12, function() {console.log("Timeout!!") }, document.getElementById("timer"));
-  test.run();
+    var timerCallback = function(){
+      document.getElementById("title").innerHTML = "Timeout!!!";
+    };
+  
+    var test = new Timer(12, timerCallback, document.getElementById("timer"));
+    test.run();
   
 </script>
 
