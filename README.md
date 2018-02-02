@@ -17,14 +17,9 @@ Micha Meier
 
 ## Features
 <ul>
- <li>Get one or more messages </li>
-<li>Replacement inside messages</li>
-<li>Multi language support</li>
-<li>Multi application support with access token</li>
-<li>Responsive Interface to manage messages</li>
-<li>Detailed error messages on failure</li>
+ <li>Function callback on timeout </li>
+<li>Shows countdown time</li>
 </ul>
-
 
 ## Testing
 Have a look at Plunker: https://embed.plnkr.co/XKePzB/
